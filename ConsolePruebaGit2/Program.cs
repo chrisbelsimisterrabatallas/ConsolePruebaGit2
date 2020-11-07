@@ -13,6 +13,10 @@ namespace ConsolePruebaGit2
             Console.WriteLine("Hola mundo C#");
             Console.WriteLine("Integracion de VS con Git");
             Console.ReadKey();
+
+            //Imprimir la suma de 2 numeros
+            Console.WriteLine("la suma de 10 + 20: {0} ", (10 + 20));
+            Console.ReadKey();
         }
     }
 }
