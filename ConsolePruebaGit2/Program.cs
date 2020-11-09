@@ -23,6 +23,16 @@ namespace ConsolePruebaGit2
             Console.WriteLine("BIENVENIDOS A LA PUCESE");
             Console.WriteLine("SEGUNDO DE TIC");
             Console.ReadKey();
+
+            Console.WriteLine("Probando la funcion");
+            int suma = funcionSuma(10, 20);
+            Console.WriteLine("Resultado funcion ={0}",suma);
+
         }
-    }
+
+        //funcion suma
+        int funcionSuma(int a, int b)
+        {
+            retun (a * 10 + b * 100);
+        }
 }
